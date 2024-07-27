@@ -1,57 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce||Online Store</title>
-    <!-- icon -->
-    <link rel="icon" href="https://png.pngtree.com/png-clipart/20230405/original/pngtree-organic-logo-png-image_9027365.png"/>
-    <!-- css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./ecommerce.css"/>
-    <!-- font -->
-    <script src="https://kit.fontawesome.com/a013949a47.js" crossorigin="anonymous"></script>
-</head>
-<body>
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-organic-logo-png-image_9027365.png" width="70%"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce||Online Store</title>
+  <!-- icon -->
+  <link rel="icon"
+    href="https://png.pngtree.com/png-clipart/20230405/original/pngtree-organic-logo-png-image_9027365.png" />
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./ecommerce.css" />
+  <!-- font -->
+  <script src="https://kit.fontawesome.com/a013949a47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-organic-logo-png-image_9027365.png"
+          width="70%"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Product</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Payment
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Online-Payment</a></li>
+              <li><a class="dropdown-item" href="#">Offline-Payment</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+              <li><a class="dropdown-item" href="#">Others</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+
+  <section class="bgimg" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="hhead">Organic Website</h1>
+          <button class="hbtn btn-success hbtn">Shop More <i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- About -->
+
+  <section>
+    <h1 class="text-center mt-5 mb-4" style="color: green; font-size: 45px;">About</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">
+          <h4 class="mt-4">Organic purity towards Health</h4 class="mt-4">
+          <p class="apara text-center mt-4 mb-5">Organic farming can be defined as an agricultural process that uses
+            biological fertilisers and pest control acquired from animal or plant waste. Organic farming was actually
+            initiated as an answer to the environmental sufferings caused by the use of chemical pesticides and
+            synthetic fertilisers.</p>
+
+        </div>
+        <!-- carousel -->
+        <div class="col-12 col-md-6 col-lg-6">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://img.freepik.com/free-photo/fruits-cutting-board-arrangement_23-2148516739.jpg?t=st=1721975479~exp=1721979079~hmac=1af3242f696909c7890e477e5f5b061d8989ebea179e49fc07cb2e6c72b558b2&w=996"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.freepik.com/premium-photo/variety-vegetables-including-one-that-has-word-it_483949-4395.jpg?w=1060"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.freepik.com/premium-photo/nuts-background-different-kinds-nuts-with-leaves_220925-22202.jpg?w=996"
+                  class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://img.freepik.com/premium-photo/set-beekeeping-products-honey-black-stone-background-free-space-text-top-view_187166-42084.jpg?w=1060"
+                  class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-      </nav>
-    
-    <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

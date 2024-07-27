@@ -1,9 +1,56 @@
-*{
+* {
     margin: 0%;
     box-sizing: border-box;
     /* border: 1px solid black; */
 }
 
-.navbar-brand{
+/* navbar */
+
+.navbar-brand {
     width: 6%;
+}
+
+.navbar {
+    background-color: #009688;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* home */
+
+.bgimg {
+    background-image: url(https://img.freepik.com/free-photo/horizontal-shot-single-green-wheat-surrounded-by-field-daylight_181624-30282.jpg?t=st=1721975798~exp=1721979398~hmac=008a94ed8e4e5abaeb4987548726bc4a57ab41850892efeb5accc9fde905e603&w=996);
+
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hhead {
+    color: White;
+    margin-top: 2%;
+    font-size: 60px;
+}
+
+.hbtn {
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* About */
+
+.apara {
+    font-size: 25px;
+}
+
+.d-block {
+    aspect-ratio: 3/2;
+    width: 100%;
 }
