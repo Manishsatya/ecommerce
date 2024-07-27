@@ -54,3 +54,15 @@
     aspect-ratio: 3/2;
     width: 100%;
 }
+
+/* products */
+
+.card-title{
+color: #009688;
+}
+
+.space div{
+    border: 10px solid transparent;
+}
+
+/* payments */
